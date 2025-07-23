@@ -109,7 +109,7 @@ export ALLOW_MISSING_DEPENDENCIES=true
 
 
 
-export FOX_USE_SPECIFIC_MAGISK_ZIP="$fox_dir/device/google/akita/root/system/bin/Magisk-29.zip"
+export FOX_USE_SPECIFIC_MAGISK_ZIP="$fox_dir/device/google/akita/recovery/root/system/bin/Magisk-29.zip"
 
 
 export FOX_VERSION=""
