@@ -20,7 +20,7 @@ magiskboot cpio vendor_ramdisk/$name_ramdisk.cpio \
 magiskboot repack ../OrangeFox-R11.3-Unofficial-$device.img
 cp -f new-boot.img ../OrangeFox-R11.3-Unofficial-$device.img
 
-DATE=$(date +"%Y-%d-%m")
+DATE=$(date +"%Y-%d-%m_%H-%M")
 
 if [ "$1" == "move" ] ; then
     cp new-boot.img $MAIN_PATH/releases/OrangeFox-R11.3-Unofficial-$device-$DATE.img
